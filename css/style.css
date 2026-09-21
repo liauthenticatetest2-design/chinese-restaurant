@@ -1,0 +1,147 @@
+/* 全体スタイル */
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", MeiRyo, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fcf8f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  background-color: #8b0000; /* 赤系統（中華風） */
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 4px solid #d4af37; /* ゴールドライン */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #f0e68c;
+}
+
+/* ナビゲーション */
+nav {
+  background-color: #2b2b2b;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+nav li a:hover {
+  background-color: #444;
+  color: #d4af37;
+}
+
+/* メインコンテンツレイアウト */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-left: 5px solid #8b0000;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #8b0000;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* メニューリスト */
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.menu-name {
+  font-weight: bold;
+}
+
+.menu-price {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+/* 店舗情報テーブル */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table th, .info-table td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.info-table th {
+  width: 25%;
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2b2b2b;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+/* スマホ対応（レスポンシブ） */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-table th, .info-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .info-table th {
+    background-color: transparent;
+    padding-bottom: 0.2rem;
+    color: #8b0000;
+  }
+}
