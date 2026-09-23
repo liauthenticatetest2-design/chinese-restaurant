@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "醤牛肉 1kg",
+    "price": 5000,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "name": "醤牛肉 500g",
+    "price": 2600,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "name": "醤牛肉 250g",
+    "price": 1350,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "name": "名物 原味焼餅 一枚300g",
+    "price": 200,
+    "category": "麺類",
+    "isAvailable": true
+  },
+  {
+    "id": 5,
+    "name": "名物 大饅頭 一個300g",
+    "price": 150,
+    "category": "麺類",
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "name": "特製 東坡ゾウ子",
+    "price": 2000,
+    "category": "季節料理",
+    "isAvailable": true
+  },
+  {
+    "id": 7,
+    "name": "麻辣鴨頭　1個",
+    "price": 300,
+    "category": "四川料理",
+    "isAvailable": true
+  },
+  {
+    "id": 8,
+    "name": "麻辣鴨脖　2個",
+    "price": 500,
+    "category": "季節料理",
+    "isAvailable": true
+  },
+  {
+    "id": 9,
+    "name": "焼鶏　一羽",
+    "price": 1200,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 10,
+    "name": "生羊肉ネギ餃子　500g",
+    "price": 1300,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 11,
+    "name": "自家作り辣醤　100g",
+    "price": 500,
+    "category": "おすすめ",
+    "isAvailable": true
+  },
+  {
+    "id": 12,
+    "name": "季節限定 蟹肉炒飯",
+    "price": 1100,
+    "category": "飯類",
+    "isAvailable": false
+  }
+]
