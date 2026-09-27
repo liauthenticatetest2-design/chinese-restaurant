@@ -126,7 +126,61 @@ footer {
   color: #aaa;
   font-size: 0.85rem;
 }
+/* メニューカード全体（横並びレイアウト） */
+.menu-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;                     /* 画像とテキストの間隔 */
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border: 1px solid #eee;
+}
 
+/* 左側：画像枠と画像のサイズ固定 */
+.menu-image-wrapper {
+  flex-shrink: 0;                /* 画像が縮まないように固定 */
+}
+
+.menu-image {
+  width: 100px;                  /* 画像の横幅 */
+  height: 100px;                 /* 画像の高さ */
+  object-fit: cover;             /* アスペクト比を保ったまま正方形にトリミング */
+  border-radius: 6px;            /* 角を少し丸くする */
+}
+
+/* 右側：テキストエリア */
+.menu-content {
+  flex-grow: 1;                  /* 残りの横幅をいっぱいに使う */
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;/* メニュー名と価格を両端に配置 */
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.menu-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-price {
+  font-weight: bold;
+  color: #e63946;
+  font-size: 1.1rem;
+}
+
+.menu-description {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
 /* スマホ対応（レスポンシブ） */
 @media (max-width: 600px) {
   nav ul {
